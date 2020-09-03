@@ -1,0 +1,17 @@
+[
+  {
+    "id": 1,
+    "name": "drawer menu",
+    "image": "/images/drawer-menu.svg"
+  },
+  {
+    "id": 2,
+    "name": "post content",
+    "image": "/images/post-content.svg"
+  },
+  {
+    "id": 3,
+    "name": "navigation bar",
+    "image": "/images/navigation-bar.svg"
+  }
+]

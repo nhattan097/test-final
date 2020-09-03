@@ -1,0 +1,477 @@
+.App .main-dashboard {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  min-height: 100vh;
+  overflow-x: hidden;
+}
+
+.App .main-dashboard .editor-app {
+  width: 30%;
+  max-width: 240px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  border-right: 1px solid #E0E0E0;
+}
+
+.App .main-dashboard .editor-app .nav-app-info {
+  background-color: #f2f2f2;
+  width: 100%;
+  height: 60px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  font-weight: 500;
+  border-bottom: 1px solid #E4E4E4;
+}
+
+.App .main-dashboard .editor-app .nav-app-info img.icon-app {
+  margin-left: 10px;
+}
+
+.App .main-dashboard .editor-app .nav-app-info .info-app {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-left: 15px;
+}
+
+.App .main-dashboard .editor-app .nav-app-info .info-app .name-app {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 15px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #4F4F4F;
+}
+
+.App .main-dashboard .editor-app .nav-app-info .info-app .quantity-screen {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 10px;
+  line-height: 12px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #828282;
+}
+
+.App .main-dashboard .editor-app .nav {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.App .main-dashboard .editor-app .nav .item-menu-wrapper {
+  cursor: pointer;
+}
+
+.App .main-dashboard .editor-app .nav .item-menu-wrapper .background-item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background-color: #f9a825;
+}
+
+.App .main-dashboard .editor-app .nav .item-menu-wrapper .background-item .icon {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 50px;
+  height: 40px;
+  background: #f19f1a;
+  border-radius: 2px;
+}
+
+.App .main-dashboard .editor-app .nav .item-menu-wrapper .background-item .name-item {
+  text-transform: uppercase;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 15px;
+  /* identical to box height */
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-transform: uppercase;
+  color: #FFFFFF;
+}
+
+.App .main-dashboard .editor-app .nav .item-menu-wrapper .background-item .name-item span {
+  margin-left: 16px;
+}
+
+.App .main-dashboard .editor-app .nav .item-menu-wrapper .background-item .name-item:hover {
+  background-color: rgba(0, 0, 0, 0.08);
+}
+
+.App .main-dashboard .editor-app .nav .item-son {
+  cursor: pointer;
+}
+
+.App .main-dashboard .editor-app .nav .item-son .background-item-son {
+  height: 40px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  background: #fdf6ec;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.App .main-dashboard .editor-app .nav .item-son .background-item-son .name-item-son {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.App .main-dashboard .editor-app .nav .item-son .background-item-son .name-item-son span {
+  width: 100%;
+  margin-left: 57px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 13px;
+  line-height: 15px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  color: #4F4F4F;
+}
+
+.App .main-dashboard .editor-app .nav .background-item-son:hover {
+  background-color: rgba(0, 0, 0, 0.08);
+}
+
+.App .main-dashboard .main {
+  width: 60%;
+}
+
+.App .main-dashboard .main img {
+  width: 100%;
+}
+
+.App .main-dashboard .aside-menu {
+  width: 30%;
+  border-left: 1px solid #E0E0E0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  max-width: 440px;
+}
+
+.App .main-dashboard .aside-menu .wrapper-tab-menu .nav-item {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  border: none;
+  color: #BDBDBD;
+  background: #F5F6F8;
+  padding: 15px;
+  border-bottom: 1px solid #E0E0E0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.App .main-dashboard .aside-menu .wrapper-tab-menu .active {
+  color: #495057;
+}
+
+.App .main-dashboard .aside-menu .wrapper-tab-menu {
+  height: 6%;
+  max-height: 48px;
+  border-bottom: 1px solid #E0E0E0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: #000000;
+}
+
+.App .main-dashboard .aside-menu .wrapper-tab-menu .menu-setting {
+  cursor: pointer;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 100%;
+  background: #F5F6F8;
+  border-bottom: 1px solid #E0E0E0;
+}
+
+.App .main-dashboard .aside-menu .wrapper-tab-menu .menu-setting span {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  letter-spacing: 0.05em;
+  color: #BDBDBD;
+  text-transform: uppercase;
+}
+
+.App .main-dashboard .aside-menu .wrapper-tab-menu .menu-widget {
+  cursor: pointer;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 100%;
+  background: #F5F6F8;
+  border-bottom: 1px solid #E0E0E0;
+}
+
+.App .main-dashboard .aside-menu .wrapper-tab-menu .menu-widget span {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  letter-spacing: 0.05em;
+  color: #BDBDBD;
+  text-transform: uppercase;
+}
+
+.App .main-dashboard .aside-menu .wrapper-tab-menu .active {
+  background: #FFFFFF;
+}
+
+.App .main-dashboard .aside-menu .wrapper-tab-menu .active span {
+  color: #000000;
+}
+
+.App .main-dashboard .aside-menu .wrapper-widget {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.App .main-dashboard .aside-menu .wrapper-widget .widget {
+  cursor: pointer;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: 15px;
+}
+
+.App .main-dashboard .aside-menu .wrapper-widget .widget img {
+  max-width: 100%;
+  height: auto;
+}
+
+.App .main-dashboard .aside-menu .tab-content {
+  height: 94%;
+  position: relative;
+}
+
+.App .main-dashboard .aside-menu .tab-content .wrapper-setting {
+  width: 100%;
+  height: 138px;
+  position: absolute;
+  top: 54px;
+  left: 24px;
+}
+
+.App .main-dashboard .aside-menu .tab-content .wrapper-setting .post-required span.title {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: #333333;
+  margin-bottom: 32px;
+}
+
+.App .main-dashboard .aside-menu .tab-content .wrapper-setting .post-required .wrapper-switch .custom-control {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.App .main-dashboard .aside-menu .tab-content .wrapper-setting .post-required .wrapper-switch .custom-control span {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 13px;
+  line-height: 15px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  color: #333333;
+  margin-left: 8px;
+}
+
+.App .main-dashboard .aside-menu .tab-content .wrapper-setting .post-required .custom-control-input:checked ~ .custom-control-label::before {
+  color: #fff;
+  border-color: #F9A825;
+  background: #F9A825;
+}
+
+.App .main-dashboard .aside-menu .tab-content .wrapper-setting .post-required .custom-control-label::before {
+  background: #F5F6F8;
+  border: 0.5px solid #E0E0E0;
+}
+
+.App .main-dashboard .aside-menu .tab-content .wrapper-setting .post-required .custom-switch .custom-control-label::after {
+  background: #FFFFFF;
+}
+
+.App .main-dashboard .aside-menu .tab-content .wrapper-setting .post-required .wrapper-background {
+  margin-top: 26px;
+}
+
+.App .main-dashboard .aside-menu .tab-content .wrapper-setting .post-required .wrapper-background span {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 16px;
+  /* identical to box height */
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #828282;
+  margin-bottom: 2px;
+}
+
+.App .main-dashboard .aside-menu .tab-content .wrapper-setting .post-required .wrapper-background .block-input-color {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.App .main-dashboard .aside-menu .tab-content .wrapper-setting .post-required .wrapper-background .block-input-color .block-color {
+  width: 50px;
+  height: 50px;
+  background: #FFFFFF;
+  border: 1px solid #E0E0E0;
+  border-radius: 50%;
+  margin-top: 20px;
+  cursor: pointer;
+}
+
+.App .main-dashboard .aside-menu .tab-content .wrapper-setting .post-required .wrapper-background .block-input-color input {
+  outline: none;
+  background: #F9F9F9;
+  border: 1px solid #E0E0E0;
+  border-radius: 0 6px 6px 0;
+  border-left: 0;
+  padding-left: 10px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 16px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #828282;
+}
+/*# sourceMappingURL=style.css.map */

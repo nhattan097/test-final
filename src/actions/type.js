@@ -1,0 +1,11 @@
+export const IS_ACTIVE = 'IS_ACTIVE';
+export const IS_SHOW = 'IS_SHOW';
+export const GET_INFO = 'GET_INFO';
+export const IS_TABMENU = 'IS_TABMENU';
+export const ADD_POSTCONTENT = 'ADD_POSTCONTENT';
+export const CHANGE_COLOR = 'CHANGE_COLOR';
+export const TOGGLE_IMAGE = 'TOGGLE_IMAGE';
+export const TOGGLE_TITLE = 'TOGGLE_TITLE';
+export const TOGGLE_DISCRIPTION = 'TOGGLE_DISCRIPTION';
+export const SET_SETTING = 'SET_SETTING';
+export const SET_WIDGET = 'SET_WIDGET';
